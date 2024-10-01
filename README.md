@@ -65,3 +65,12 @@ O usuário pode ordenar os países com base em:
 - **CSS3**
 - **JavaScript (ES6+)**
 - **Fetch API** (para obtenção de dados da API Rest Countries)
+
+## Utilizar o site localmente
+1. Clone o repositório.
+   - git clone https://github.com/Elielltn/worldwide.git (Para o comando funcionar o git deve estar instalado na maquina. Site para download: https://git-scm.com/downloads)
+2. Navegue até a pasta do projeto.
+   - cd worldwide-main
+3. Abra o arquivo HTML no navegador.
+   - open index.html (MacOS)
+   - start index.html (Windows)
