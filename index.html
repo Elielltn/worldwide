@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WorldWide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>WorldWide</h1>
+        <input type="text" id="search" placeholder="Search by country name...">
+
+        <div class="filters">
+            <select id="regionFilter">
+                <option value="">Filter by Region</option>
+                <option value="Africa">Africa</option>
+                <option value="Americas">Americas</option>
+                <option value="Asia">Asia</option>
+                <option value="Europe">Europe</option>
+                <option value="Oceania">Oceania</option>
+            </select>
+
+            <select id="subregionFilter">
+                <option value="">Filter by Subregion</option>
+                <!-- Subregions dynamically populated -->
+            </select>
+
+            <select id="populationFilter">
+                <option value="">Filter by Population</option>
+                <option value="<1000000">Less than 1M</option>
+                <option value="1000000-10000000">1M - 10M</option>
+                <option value="10000000-100000000">10M - 100M</option>
+                <option value=">100000000">More than 100M</option>
+            </select>
+
+            <select id="sortOrder">
+                <option value="">Sort by...</option>
+                <option value="name">Country Name</option>
+                <option value="population">Population</option>
+                <option value="area">Area</option>
+            </select>
+        </div>
+
+        <ul id="countryList"></ul>
+        <button id="loadMore">Load More</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
